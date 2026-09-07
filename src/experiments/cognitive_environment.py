@@ -211,9 +211,6 @@ class CognitiveEnvironment:
             task.difficulty,
         )
 
-        if split == "evaluation":
-            x = torch.roll(x, shifts=1, dims=1)
-
         return TrialBatch(
             x=x,
             y=y,
@@ -330,3 +327,4 @@ if __name__ == "__main__":
             evaluation["PER01"].x,
         )),
     )
+

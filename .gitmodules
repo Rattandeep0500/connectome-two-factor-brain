@@ -1,0 +1,6 @@
+[submodule "third_party/BrainNet-Viewer"]
+	path = third_party/BrainNet-Viewer
+	url = https://github.com/mingruixia/BrainNet-Viewer.git
+[submodule "third_party/TREES"]
+	path = third_party/TREES
+	url = https://github.com/cuntzlab/treestoolbox.git
